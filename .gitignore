@@ -1,0 +1,114 @@
+# ==========================
+# Python / FastAPI backend
+# ==========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
+.eggs/
+.env
+.venv
+env/
+venv/
+ENV/
+pip-wheel-metadata/
+poetry.lock
+*.log
+
+# Byte-compiled / cache / temp
+*.bak
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Data & models
+# ==========================
+data_cache/
+results/
+checkpoints/
+*.parquet
+*.feather
+*.pkl
+*.joblib
+*.csv
+*.h5
+*.sqlite
+*.db
+*.npz
+*.npy
+
+# ==========================
+# Jupyter / notebooks
+# ==========================
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ==========================
+# Node / React frontend
+# ==========================
+webapp/node_modules/
+webapp/dist/
+webapp/.vite/
+webapp/.DS_Store
+webapp/*.log
+webapp/.env.local
+webapp/.env.development.local
+webapp/.env.production.local
+webapp/.env.test.local
+
+# ==========================
+# IDE / editor
+# ==========================
+.vscode/
+.idea/
+*.code-workspace
+
+# ==========================
+# System / OS
+# ==========================
+.DS_Store
+ehthumbs.db
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# ==========================
+# Docker / Compose
+# ==========================
+*.pid
+*.seed
+*.pid.lock
+docker-compose.override.yml
+.env.docker
+
+# ==========================
+# Misc security
+# ==========================
+secrets.json
+credentials.json
+api_keys.json
+*.pem
+*.key
+*.crt
+
+# ==========================
+# Coverage / test
+# ==========================
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+.pytest_cache/
+.tox/
+.nox/
+.mypy_cache/
+.pyre/
+.pytype/
