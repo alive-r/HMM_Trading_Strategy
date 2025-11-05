@@ -55,7 +55,7 @@ def main():
     breadth = (rets.iloc[:,:-1]
                .apply(lambda row:(row>0).sum()/row.count() if row.count()>0 else np.nan, axis=1)
                .rename("breadth_up_ratio")
-               ) # participation info
+               ) # participation info: the
     idx_feat = pd.concat([mkt, realized_vol_21, breadth], axis=1).join(fred["VIXCLS"]).ffill()
     to_parquet(idx_feat, "index_features.parquet")
 
